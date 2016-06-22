@@ -7,472 +7,432 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-06-22T19:54:47.000Z", 
+      "timestamp": "2016-06-22T19:57:50.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 67.95, 
-    "clock": "2016-06-22T12:54:21-07:00"
+    "reservoir": 67.925, 
+    "clock": "2016-06-22T12:57:24-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 122, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
-      "timestamp": "2016-06-22T19:55:55.000Z", 
+      "snoozeBG": 112, 
+      "timestamp": "2016-06-22T20:00:15.000Z", 
       "predBGs": {
         "IOB": [
-          122, 
-          121, 
-          121, 
-          120, 
-          120, 
-          120, 
-          120, 
-          120, 
-          121, 
-          122, 
-          123, 
-          124, 
-          125, 
-          127, 
-          128, 
-          130, 
-          131, 
-          133, 
-          134, 
-          135, 
-          137, 
-          138, 
-          139, 
-          140, 
-          141, 
-          142, 
-          143, 
-          144, 
-          144, 
-          145, 
-          146, 
-          146, 
-          146, 
-          147
+          115, 
+          108, 
+          103, 
+          97, 
+          93, 
+          89, 
+          85, 
+          83, 
+          81, 
+          80, 
+          79, 
+          79, 
+          80, 
+          80, 
+          80, 
+          81, 
+          81, 
+          81, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          83
         ]
       }, 
-      "rate": 0.6, 
-      "reason": "COB: undefined, Dev: 8, BGI: -1.93, ISF: 94.1, Target: 125; Eventual BG 135>=125, temp 0<0.59U/hr", 
-      "eventualBG": 135, 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -1, BGI: -1.79, ISF: 94.1, Target: 125; Eventual BG 112<125, setting -0.123U/hr", 
+      "COB": 0, 
+      "eventualBG": 112, 
       "duration": 30, 
-      "tick": "+3", 
-      "IOB": -0.068
+      "tick": -7, 
+      "IOB": 0.021
     }, 
     "iob": [
       {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0041, 
-        "basaliob": -0.182, 
-        "time": "2016-06-22T19:54:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.068
-      }, 
-      {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0036, 
-        "basaliob": -0.177, 
-        "time": "2016-06-22T19:59:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.086
-      }, 
-      {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0031, 
-        "basaliob": -0.222, 
-        "time": "2016-06-22T20:04:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.151
-      }, 
-      {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0025, 
-        "basaliob": -0.266, 
-        "time": "2016-06-22T20:09:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.213
-      }, 
-      {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0018, 
-        "basaliob": -0.309, 
-        "time": "2016-06-22T20:14:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.272
-      }, 
-      {
-        "netbasalinsulin": -0.45, 
-        "activity": 0.0011, 
-        "basaliob": -0.302, 
-        "time": "2016-06-22T20:19:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.278
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": 0.0004, 
-        "basaliob": -0.294, 
-        "time": "2016-06-22T20:24:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.28
-      }, 
-      {
         "netbasalinsulin": -0.35, 
-        "activity": -0.0003, 
-        "basaliob": -0.285, 
-        "time": "2016-06-22T20:29:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.278
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0011, 
-        "basaliob": -0.275, 
-        "time": "2016-06-22T20:34:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.273
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0019, 
-        "basaliob": -0.263, 
-        "time": "2016-06-22T20:39:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.263
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0025, 
-        "basaliob": -0.25, 
-        "time": "2016-06-22T20:44:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.25
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0028, 
-        "basaliob": -0.237, 
-        "time": "2016-06-22T20:49:21.000Z", 
-        "hightempinsulin": 0.2, 
-        "bolussnooze": 0, 
-        "iob": -0.237
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.0029, 
-        "basaliob": -0.222, 
-        "time": "2016-06-22T20:54:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.222
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.003, 
-        "basaliob": -0.207, 
-        "time": "2016-06-22T20:59:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.207
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.0031, 
-        "basaliob": -0.191, 
-        "time": "2016-06-22T21:04:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.191
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.0031, 
-        "basaliob": -0.176, 
-        "time": "2016-06-22T21:09:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.176
-      }, 
-      {
-        "netbasalinsulin": -0.4, 
-        "activity": -0.0031, 
-        "basaliob": -0.16, 
-        "time": "2016-06-22T21:14:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.16
-      }, 
-      {
-        "netbasalinsulin": -0.35, 
-        "activity": -0.003, 
-        "basaliob": -0.145, 
-        "time": "2016-06-22T21:19:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.145
-      }, 
-      {
-        "netbasalinsulin": -0.35, 
-        "activity": -0.0029, 
-        "basaliob": -0.13, 
-        "time": "2016-06-22T21:24:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.13
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0028, 
-        "basaliob": -0.116, 
-        "time": "2016-06-22T21:29:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.116
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0026, 
-        "basaliob": -0.103, 
-        "time": "2016-06-22T21:34:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.103
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0025, 
-        "basaliob": -0.09, 
-        "time": "2016-06-22T21:39:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.09
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0023, 
+        "activity": 0.0038, 
         "basaliob": -0.079, 
-        "time": "2016-06-22T21:44:21.000Z", 
-        "hightempinsulin": 0.1, 
+        "time": "2016-06-22T19:57:24.000Z", 
+        "hightempinsulin": 0.25, 
         "bolussnooze": 0, 
-        "iob": -0.079
+        "iob": 0.021
       }, 
       {
         "netbasalinsulin": -0.3, 
-        "activity": -0.0022, 
-        "basaliob": -0.068, 
-        "time": "2016-06-22T21:49:21.000Z", 
-        "hightempinsulin": 0.1, 
+        "activity": 0.0034, 
+        "basaliob": -0.074, 
+        "time": "2016-06-22T20:02:24.000Z", 
+        "hightempinsulin": 0.25, 
         "bolussnooze": 0, 
-        "iob": -0.068
+        "iob": 0.004
       }, 
       {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.002, 
-        "basaliob": -0.058, 
-        "time": "2016-06-22T21:54:21.000Z", 
-        "hightempinsulin": 0.1, 
-        "bolussnooze": 0, 
-        "iob": -0.058
-      }, 
-      {
-        "netbasalinsulin": -0.35, 
-        "activity": -0.0018, 
-        "basaliob": -0.049, 
-        "time": "2016-06-22T21:59:21.000Z", 
-        "hightempinsulin": 0.05, 
-        "bolussnooze": 0, 
-        "iob": -0.049
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0017, 
-        "basaliob": -0.04, 
-        "time": "2016-06-22T22:04:21.000Z", 
-        "hightempinsulin": 0.05, 
-        "bolussnooze": 0, 
-        "iob": -0.04
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0015, 
-        "basaliob": -0.033, 
-        "time": "2016-06-22T22:09:21.000Z", 
-        "hightempinsulin": 0.05, 
-        "bolussnooze": 0, 
-        "iob": -0.033
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0013, 
-        "basaliob": -0.026, 
-        "time": "2016-06-22T22:14:21.000Z", 
-        "hightempinsulin": 0.05, 
-        "bolussnooze": 0, 
-        "iob": -0.026
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0012, 
-        "basaliob": -0.02, 
-        "time": "2016-06-22T22:19:21.000Z", 
-        "hightempinsulin": 0.05, 
-        "bolussnooze": 0, 
-        "iob": -0.02
-      }, 
-      {
-        "netbasalinsulin": -0.35, 
-        "activity": -0.001, 
-        "basaliob": -0.015, 
-        "time": "2016-06-22T22:24:21.000Z", 
-        "hightempinsulin": 0, 
-        "bolussnooze": 0, 
-        "iob": -0.015
-      }, 
-      {
-        "netbasalinsulin": -0.3, 
-        "activity": -0.0008, 
-        "basaliob": -0.011, 
-        "time": "2016-06-22T22:29:21.000Z", 
-        "hightempinsulin": 0, 
+        "netbasalinsulin": -0.25, 
+        "activity": 0.003, 
+        "basaliob": -0.07, 
+        "time": "2016-06-22T20:07:24.000Z", 
+        "hightempinsulin": 0.25, 
         "bolussnooze": 0, 
         "iob": -0.011
       }, 
       {
-        "netbasalinsulin": -0.3, 
+        "netbasalinsulin": -0.25, 
+        "activity": 0.0025, 
+        "basaliob": -0.066, 
+        "time": "2016-06-22T20:12:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.023
+      }, 
+      {
+        "netbasalinsulin": -0.2, 
+        "activity": 0.0019, 
+        "basaliob": -0.062, 
+        "time": "2016-06-22T20:17:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.033
+      }, 
+      {
+        "netbasalinsulin": -0.15, 
+        "activity": 0.0014, 
+        "basaliob": -0.058, 
+        "time": "2016-06-22T20:22:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.04
+      }, 
+      {
+        "netbasalinsulin": -0.1, 
+        "activity": 0.0009, 
+        "basaliob": -0.054, 
+        "time": "2016-06-22T20:27:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.045
+      }, 
+      {
+        "netbasalinsulin": -0.1, 
+        "activity": 0.0004, 
+        "basaliob": -0.051, 
+        "time": "2016-06-22T20:32:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.047
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0002, 
+        "basaliob": -0.046, 
+        "time": "2016-06-22T20:37:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.046
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0008, 
+        "basaliob": -0.042, 
+        "time": "2016-06-22T20:42:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.042
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.001, 
+        "basaliob": -0.037, 
+        "time": "2016-06-22T20:47:24.000Z", 
+        "hightempinsulin": 0.25, 
+        "bolussnooze": 0, 
+        "iob": -0.037
+      }, 
+      {
+        "netbasalinsulin": -0.1, 
+        "activity": -0.001, 
+        "basaliob": -0.032, 
+        "time": "2016-06-22T20:52:24.000Z", 
+        "hightempinsulin": 0.2, 
+        "bolussnooze": 0, 
+        "iob": -0.032
+      }, 
+      {
+        "netbasalinsulin": -0.15, 
+        "activity": -0.0009, 
+        "basaliob": -0.027, 
+        "time": "2016-06-22T20:57:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.027
+      }, 
+      {
+        "netbasalinsulin": -0.15, 
+        "activity": -0.0008, 
+        "basaliob": -0.023, 
+        "time": "2016-06-22T21:02:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.023
+      }, 
+      {
+        "netbasalinsulin": -0.15, 
         "activity": -0.0007, 
-        "basaliob": -0.008, 
-        "time": "2016-06-22T22:34:21.000Z", 
-        "hightempinsulin": 0, 
+        "basaliob": -0.02, 
+        "time": "2016-06-22T21:07:24.000Z", 
+        "hightempinsulin": 0.15, 
         "bolussnooze": 0, 
-        "iob": -0.008
+        "iob": -0.02
       }, 
       {
-        "netbasalinsulin": -0.25, 
+        "netbasalinsulin": -0.15, 
+        "activity": -0.0006, 
+        "basaliob": -0.017, 
+        "time": "2016-06-22T21:12:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.017
+      }, 
+      {
+        "netbasalinsulin": -0.1, 
         "activity": -0.0005, 
-        "basaliob": -0.005, 
-        "time": "2016-06-22T22:39:21.000Z", 
-        "hightempinsulin": 0, 
+        "basaliob": -0.015, 
+        "time": "2016-06-22T21:17:24.000Z", 
+        "hightempinsulin": 0.15, 
         "bolussnooze": 0, 
-        "iob": -0.005
+        "iob": -0.015
       }, 
       {
-        "netbasalinsulin": -0.25, 
+        "netbasalinsulin": -0.1, 
         "activity": -0.0004, 
+        "basaliob": -0.013, 
+        "time": "2016-06-22T21:22:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.013
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0004, 
+        "basaliob": -0.011, 
+        "time": "2016-06-22T21:27:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.011
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0004, 
+        "basaliob": -0.009, 
+        "time": "2016-06-22T21:32:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.009
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0003, 
+        "basaliob": -0.007, 
+        "time": "2016-06-22T21:37:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.007
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0003, 
+        "basaliob": -0.006, 
+        "time": "2016-06-22T21:42:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.006
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0003, 
+        "basaliob": -0.004, 
+        "time": "2016-06-22T21:47:24.000Z", 
+        "hightempinsulin": 0.15, 
+        "bolussnooze": 0, 
+        "iob": -0.004
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0003, 
         "basaliob": -0.003, 
-        "time": "2016-06-22T22:44:21.000Z", 
-        "hightempinsulin": 0, 
+        "time": "2016-06-22T21:52:24.000Z", 
+        "hightempinsulin": 0.15, 
         "bolussnooze": 0, 
         "iob": -0.003
       }, 
       {
-        "netbasalinsulin": -0.2, 
-        "activity": -0.0003, 
+        "netbasalinsulin": -0.1, 
+        "activity": -0.0002, 
         "basaliob": -0.002, 
-        "time": "2016-06-22T22:49:21.000Z", 
-        "hightempinsulin": 0, 
+        "time": "2016-06-22T21:57:24.000Z", 
+        "hightempinsulin": 0.1, 
         "bolussnooze": 0, 
         "iob": -0.002
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0002, 
+        "basaliob": -0.001, 
+        "time": "2016-06-22T22:02:24.000Z", 
+        "hightempinsulin": 0.1, 
+        "bolussnooze": 0, 
+        "iob": -0.001
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0001, 
+        "basaliob": 0, 
+        "time": "2016-06-22T22:07:24.000Z", 
+        "hightempinsulin": 0.1, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0001, 
+        "basaliob": 0, 
+        "time": "2016-06-22T22:12:24.000Z", 
+        "hightempinsulin": 0.1, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": -0.0001, 
+        "basaliob": 0.001, 
+        "time": "2016-06-22T22:17:24.000Z", 
+        "hightempinsulin": 0.1, 
+        "bolussnooze": 0, 
+        "iob": 0.001
+      }, 
+      {
+        "netbasalinsulin": -0.1, 
+        "activity": 0, 
+        "basaliob": 0.001, 
+        "time": "2016-06-22T22:22:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0.001
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": 0, 
+        "basaliob": 0.001, 
+        "time": "2016-06-22T22:27:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0.001
+      }, 
+      {
+        "netbasalinsulin": -0.05, 
+        "activity": 0, 
+        "basaliob": 0.001, 
+        "time": "2016-06-22T22:32:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0.001
+      }, 
+      {
+        "netbasalinsulin": 0, 
+        "activity": 0, 
+        "basaliob": 0.001, 
+        "time": "2016-06-22T22:37:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0.001
+      }, 
+      {
+        "netbasalinsulin": 0, 
+        "activity": 0, 
+        "basaliob": 0, 
+        "time": "2016-06-22T22:42:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      {
+        "netbasalinsulin": 0, 
+        "activity": 0, 
+        "basaliob": 0, 
+        "time": "2016-06-22T22:47:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      {
+        "netbasalinsulin": 0.05, 
+        "activity": 0, 
+        "basaliob": 0, 
+        "time": "2016-06-22T22:52:24.000Z", 
+        "hightempinsulin": 0.05, 
+        "bolussnooze": 0, 
+        "iob": 0
       }
     ], 
     "enacted": {
-      "bg": 122, 
+      "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
+      "snoozeBG": 112, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          122, 
-          121, 
-          121, 
-          120, 
-          120, 
-          120, 
-          120, 
-          120, 
-          121, 
-          122, 
-          123, 
-          124, 
-          125, 
-          127, 
-          128, 
-          130, 
-          131, 
-          133, 
-          134, 
-          135, 
-          137, 
-          138, 
-          139, 
-          140, 
-          141, 
-          142, 
-          143, 
-          144, 
-          144, 
-          145, 
-          146, 
-          146, 
-          146, 
-          147
+          115, 
+          108, 
+          103, 
+          97, 
+          93, 
+          89, 
+          85, 
+          83, 
+          81, 
+          80, 
+          79, 
+          79, 
+          80, 
+          80, 
+          80, 
+          81, 
+          81, 
+          81, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          82, 
+          83
         ]
       }, 
-      "reason": "COB: undefined, Dev: 8, BGI: -1.93, ISF: 94.1, Target: 125; Eventual BG 135>=125, temp 0<0.59U/hr", 
+      "reason": "COB: 0, Dev: -1, BGI: -1.79, ISF: 94.1, Target: 125; Eventual BG 112<125, setting -0.123U/hr", 
       "rate": 0.575, 
-      "eventualBG": 135, 
-      "timestamp": "2016-06-22T19:56:01.000Z", 
-      "duration": 30, 
-      "tick": "+3", 
-      "IOB": -0.068
+      "COB": 0, 
+      "eventualBG": 112, 
+      "timestamp": "2016-06-22T20:00:48.000Z", 
+      "duration": 26, 
+      "tick": -7, 
+      "IOB": 0.021
     }
   }, 
   "mmtune": {
-    "scanDetails": [
-      [
-        "916.612", 
-        2, 
-        -83
-      ], 
-      [
-        "916.636", 
-        5, 
-        -58
-      ], 
-      [
-        "916.660", 
-        5, 
-        -58
-      ], 
-      [
-        "916.684", 
-        5, 
-        -59
-      ], 
-      [
-        "916.708", 
-        5, 
-        -62
-      ]
-    ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-06-22T19:54:16.000Z", 
-    "usedDefault": false
+    "scanDetails": [], 
+    "setFreq": 916.63, 
+    "timestamp": "2016-06-22T19:57:26.000Z", 
+    "usedDefault": true
   }
 }
