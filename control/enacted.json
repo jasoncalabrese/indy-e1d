@@ -1,18 +1,13 @@
 {
-  "requested": {
-    "duration": 30, 
-    "rate": 0, 
-    "temp": "absolute"
-  }, 
-  "bg": 101, 
+  "bg": 95, 
   "temp": "absolute", 
-  "snoozeBG": -56, 
-  "timestamp": "2016-06-23T18:54:56.033003", 
+  "snoozeBG": -7, 
+  "recieved": true, 
   "predBGs": {
     "IOB": [
-      101, 
-      44, 
-      39, 
+      95, 
+      74, 
+      55, 
       39, 
       39, 
       39, 
@@ -26,11 +21,11 @@
     ]
   }, 
   "rate": 0.0, 
-  "reason": "COB: 0, Dev: -156, BGI: -5.36, ISF: 80, Target: 115; Eventual BG -56<115, setting -8.05U/hr", 
+  "reason": "COB: 0, Dev: -117, BGI: -3.24, ISF: 80, Target: 115; Eventual BG -7<115, setting -5.6U/hr", 
   "COB": 0, 
-  "eventualBG": -56, 
-  "recieved": false, 
-  "duration": 6, 
-  "tick": -62, 
-  "IOB": 0.017
+  "eventualBG": -7, 
+  "timestamp": "2016-06-23T19:09:51.632985", 
+  "duration": 30, 
+  "tick": "+3", 
+  "IOB": -0.193
 }
