@@ -1,5 +1,32 @@
 [
   {
+    "_type": "PumpSuspend", 
+    "_description": "PumpSuspend 2016-06-24T14:45:15 head[2], body[0] op[0x1e]", 
+    "timestamp": "2016-06-24T14:45:15", 
+    "_body": "", 
+    "_head": "1e01", 
+    "_date": "4fad0e1810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 90, 
+    "_description": "TempBasalDuration 2016-06-24T14:45:09 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-06-24T14:45:09", 
+    "_body": "", 
+    "_head": "1603", 
+    "_date": "49ad0e1810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-06-24T14:45:09 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-06-24T14:45:09", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "49ad0e1810"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-06-24T14:39:00 head[2], body[0] op[0x16]", 
